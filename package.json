@@ -1,0 +1,10 @@
+{
+  "name": "mockbox",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+  },
+  "author": "maoyuanxiang",
+  "license": "MIT"
+}

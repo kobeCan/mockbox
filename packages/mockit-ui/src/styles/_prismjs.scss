@@ -1,0 +1,6 @@
+@forward 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+@forward 'prism-themes/themes/prism-material-oceanic.min.css';
+
+.token.keyword {
+  font-style: normal;
+}

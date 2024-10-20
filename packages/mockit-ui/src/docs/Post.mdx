@@ -1,0 +1,47 @@
+import { Button } from "@nextui-org/react";
+
+#### Hello MDX
+
+
+**KOO**
+
+<Button>Start</Button>
+
+```js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
+import mdx from '@mdx-js/rollup';
+import gfm from 'remark-gfm'
+import rehypePrism from 'rehype-prism'
+
+import 'prismjs/components/prism-go'
+import 'prismjs/components/prism-java'
+import 'prismjs/components/prism-python'
+```
+
+# GFM
+
+## Autolink literals
+
+www.example.com, https://example.com, and contact@example.com.
+
+## Footnote
+
+A note[^1]
+
+[^1]: Big note.
+
+## Strikethrough
+
+~one~ or ~~two~~ tildes.
+
+## Table
+
+| a | b  |  c |  d  |
+| - | :- | -: | :-: |
+
+## Tasklist
+
+* [ ] to do
+* [x] done
